@@ -1,0 +1,205 @@
+body
+{
+		font-family:arial;
+		background-color:#D4D4D4;
+
+}
+#conatainer
+{
+	position:relative;
+
+}
+
+#header
+{
+	width:100%;
+	height:42px;
+	background-color: #3F3F3F;
+	position:fixed;
+	margin-top:-8px;
+	margin-left:-8px;
+}
+#nav-area
+{
+	position:relative;
+	width:1006px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+#links-div
+{
+	position:absolute;
+	left:70%;
+	top:12px;
+	white-space: nowrap;
+}
+/*
+#logo
+{
+	position:absolute;
+	top:0;
+	left:0;
+}*/
+
+.header-link
+{
+	
+	color: #D7D7D7;
+	text-decoration: none;
+	margin-left:20px;
+	display:inline-block;
+}
+
+/*--------------------------------------------------*/
+
+#body-container{
+
+	position:relative;
+	width:1006px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#main-body{
+	position:absolute;
+	margin-top:7%;
+	background-color:white;
+	width:100%;
+	z-index:-1;
+}
+#upper{
+	width:100%;
+	
+background-image:url('../img/back.png');
+}
+
+.pleft{
+	padding-left:8%;
+	padding-top:1%;
+	padding-bottom:2%;
+}
+.kmid{
+		padding-left:4%;
+	padding-right:4%
+}
+#last-revised{
+	float:right;
+	font-size: 12px;
+	line-height: 14px;
+	color: #999;
+	font-weight: normal;
+	padding-top: 5px;
+	padding:right:10%;
+
+}
+.inlined-divs
+{
+	display:inline-block;
+}
+
+.righty
+{
+	float:right;
+	width:55%;
+	color: #999;
+	line-height: 14px;
+}
+.lefty{
+float:left; 
+width:25%; 
+color:#33333;
+}
+.slefty
+{
+	padding-top:14px;
+}
+.tob
+{
+	margin-top: -15px;
+	padding-bottom: 4%;
+}
+.black{
+	font-size: 13px;
+font-weight: bold;
+line-height: 17px;
+color: black;
+}
+
+.cleared{
+clear:both;
+	margin-left:4%;
+
+ }
+.btt
+{
+float:right;
+
+	line-height: 14px;
+	
+}
+.sline{
+	white-space: nowrap;
+}
+.blinks
+{
+	text-decoration:none;
+	color: #0099cc;
+}
+.slinks{
+	line-height:28px;;
+}
+/*--------------------------------------------------*/
+
+
+#footer-div
+{
+
+	position:absolute;
+	width:1006px;
+	
+	left:0;
+	
+
+}
+.footer{
+width:100%;
+white-space: nowrap;
+
+}
+#ldiv{
+border-color:white;
+}
+#btext{
+font-weight:bold;
+}
+#flogo{
+color: #848484; font-size:10pt; font-weight:bold
+}
+#flogoi{
+background-color:#848484;color:#ffffff;font-size:10pt;padding:2px; font-weight:bold; height:5px;
+
+}
+#cright{
+color: #848484; font-size:10pt; font-weight:bold;
+}
+.fborder{
+border-right:1px solid grey; padding-left:1%;
+}
+.flinks{
+color: #0099cc; font-size:10pt;  padding-left:1%;
+}
+#hrid{
+	margin-top:8%;
+	
+}
+#hdiv{
+color: #0099cc; font-size:12pt; font-weight:bold;
+}
+#liu{
+
+color: #0099cc; font-size:10pt;
+}
+.linkrow
+{
+	margin-top:1%;
+}
